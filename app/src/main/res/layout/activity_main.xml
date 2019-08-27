@@ -30,7 +30,8 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="59dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="Value"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +59,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="59dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="Value"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/length1" />
@@ -99,8 +101,8 @@
 
     <TextView
         android:id="@+id/textViewShapeSelected"
-        android:layout_width="129dp"
-        android:layout_height="43dp"
+        android:layout_width="175dp"
+        android:layout_height="27dp"
         android:layout_marginTop="39dp"
         android:text="Select a shape"
         android:textAlignment="center"
@@ -127,7 +129,7 @@
         android:id="@+id/textViewResult"
         android:layout_width="93dp"
         android:layout_height="39dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="25dp"
         android:text="Result"
         android:textAlignment="center"
         android:textColor="#020000"
@@ -142,7 +144,7 @@
         android:id="@+id/clearButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="25dp"
         android:text="Clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
